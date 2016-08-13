@@ -1,0 +1,3 @@
+[submodule "public/third_party/baba"]
+	path = public/third_party/baba
+	url = git://github.com/Lokaltog/baba

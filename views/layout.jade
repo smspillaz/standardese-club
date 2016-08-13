@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width')
+    title= title
+    block css
+      link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Ubuntu+Mono')
+      link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap.css')
+      link(rel='stylesheet', href='/css/style.css')
+    block js
+      script(src='/components/jquery/dist/jquery.slim.js')
+      script(src='/components/bootstrap/dist/js/bootstrap.js')
+      script(src='/third_party/baba/src/baba.js')
+      script(src='/third_party/baba/src/grammar/common.js')
+      script(src='/js/standardese.js')
+      if ENV_DEVELOPMENT
+        script(src='http://localhost:35729/livereload.js')
+  body
+    block content
