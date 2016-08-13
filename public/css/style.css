@@ -23,7 +23,7 @@ h1 {
 }
 .building-window {
   background-image: linear-gradient(0deg, #000000, #777777);
-  height: 85%;
+  height: 100%;
   padding: 10px;
   overflow: auto;
   border-radius: 1em;
