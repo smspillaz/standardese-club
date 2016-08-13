@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "gulp less && node ./bin/www",
-    "heroku-postbuild": "git submodule update --init --recursive"
+    "start": "gulp less && node ./bin/www"
   },
   "dependencies": {
     "express": "^4.13.3",
